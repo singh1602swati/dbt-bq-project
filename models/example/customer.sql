@@ -1,4 +1,5 @@
--- customer_orders.sql
+-- customer.sql
+-- first model created for the use case and the name is customer
 SELECT
   BuyerInfo_BuyerEmail AS customer_id,
   MIN(RequestStartDate) AS customer_acquisition_date,

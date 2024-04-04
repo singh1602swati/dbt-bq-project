@@ -1,4 +1,5 @@
--- customer_orders_incremental.sql
+-- customer_incremental.sql
+-- it is for incremental load if the order date is greater than customer last order date
 {{ config(
   materialized='incremental',
   unique_key='customer_id'
